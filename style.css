@@ -1,0 +1,37 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'poppins' , sans-serif;
+box-sizing: border box;
+}
+ .container{
+    height: 100vh;
+    width:100%;
+    background : #080808;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+ form{ 
+    background: #fff;
+    width: 600px;
+    height: 55px;
+    display: flex;
+ }
+ form input{
+    flex: 1;
+    border: none;
+    outline:none;
+
+ }
+ form button{
+    background: tomato;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+ }
